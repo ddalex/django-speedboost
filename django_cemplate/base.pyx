@@ -1,3 +1,8 @@
+# encoding: utf-8
+# cython: profile=True 
+# cython: linetrace=True
+# filename: base.py
+
 """
 This is the Django template system.
 
@@ -50,6 +55,21 @@ u'<html></html>'
 """
 
 from __future__ import unicode_literals
+
+import cython
+cimport cython
+
+def lineprofileit(func):
+    def wrapper(*args, **kwargs):
+        import line_profiler
+        datafn = func.__name__ + ".lineprofile"
+        profile = line_profiler.LineProfiler(func)
+        retval = profile.runcall(func, *args, **kwargs)
+        profile.print_stats()
+        profile.dump_stats(datafn)
+        return retval
+    return wrapper
+
 
 import inspect
 import re
@@ -405,7 +425,8 @@ class Parser(object):
         pass
 
     def next_token(self):
-        return self.tokens.pop(0)
+        token = self.tokens.pop(0)
+        return token
 
     def prepend_token(self, token):
         self.tokens.insert(0, token)
@@ -863,13 +884,17 @@ class Variable(object):
         return current
 
 
-class Node(object):
+cdef class Node(object):
     # Set this to True for nodes that must be first in the template (although
     # they can be preceded by text nodes.
-    must_be_first = False
-    child_nodelists = ('nodelist',)
+    cdef public int must_be_first
+    cdef public tuple child_nodelists
 
-    def render(self, context):
+    def __cinit__(self):
+        self.child_nodelists = ('nodelist',)
+        self.must_be_first = False
+
+    cpdef unicode render(self, context):
         """
         Return the node rendered as a string.
         """
@@ -878,7 +903,7 @@ class Node(object):
     def __iter__(self):
         yield self
 
-    def get_nodes_by_type(self, nodetype):
+    cpdef list get_nodes_by_type(self, nodetype):
         """
         Return a list of all nodes (within this node and its nodelist)
         of the given type
@@ -886,6 +911,7 @@ class Node(object):
         nodes = []
         if isinstance(self, nodetype):
             nodes.append(self)
+        assert self.child_nodelists
         for attr in self.child_nodelists:
             nodelist = getattr(self, attr, None)
             if nodelist:
@@ -893,13 +919,17 @@ class Node(object):
         return nodes
 
 
-class NodeList(list):
+cdef class NodeList(list):
     # Set to True the first time a non-TextNode is inserted by
     # extend_nodelist().
-    contains_nontext = False
+    cdef int contains_nontext
+
+    def __init__(self, *args, **kwargs):
+        super(NodeList, self).__init__(*args, **kwargs)
+        self.contains_nontext = False
 
     def render(self, context):
-        bits = []
+        cdef list bits = []
         for node in self:
             if isinstance(node, Node):
                 bit = self.render_node(node, context)
@@ -908,7 +938,7 @@ class NodeList(list):
             bits.append(force_text(bit))
         return mark_safe(''.join(bits))
 
-    def get_nodes_by_type(self, nodetype):
+    cpdef list get_nodes_by_type(self, nodetype):
         "Return a list of all nodes of the given type"
         nodes = []
         for node in self:
@@ -919,15 +949,19 @@ class NodeList(list):
         return node.render(context)
 
 
-class TextNode(Node):
+cdef class TextNode(Node):
+    cdef unicode s
+    cdef public object source
+
     def __init__(self, s):
         self.s = s
+        self.source = None
 
     def __repr__(self):
-        return force_str("<Text Node: '%s'>" % self.s[:25], 'ascii',
+        return force_str("<Text Node: '%s'>" % self.s[:25], 'utf8',
                 errors='replace')
 
-    def render(self, context):
+    cpdef unicode render(self, context):
         return self.s
 
 

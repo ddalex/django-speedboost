@@ -7,6 +7,12 @@ import importlib
 
 from distutils.core import setup, Extension
 from Cython.Compiler.Main import compile
+from Cython.Build import cythonize
+
+from Cython.Compiler.Options import directive_defaults
+
+directive_defaults['linetrace'] = True
+directive_defaults['binding'] = True
 
 
 class CythonModuleCompiler(list):
@@ -21,6 +27,8 @@ class CythonModuleCompiler(list):
         source_file_name = importlib.import_module(module_name).__file__
         if source_file_name.endswith(".pyc"):
             source_file_name = source_file_name[:-1]
+        if not source_file_name.endswith(".py"):
+            return
         base_name = os.path.basename(source_file_name)
 
         # generate the C files if they are not there
@@ -41,23 +49,25 @@ class CythonModuleCompiler(list):
 
     def __iter__(self):
         for module in self.module_list:
-            yield self._mangle_module(module)
+            mangled_module = self._mangle_module(module)
+            if mangled_module is not None:
+                yield mangled_module
 
     def __len__(self):
         l = len(self.module_list)
         return l
 
 setup(
-    name="django-django_cemplate",
+    name="django_cemplate",
     author="Alex DAMIAN",
     author_email="ddalex@gmail.com",
     version="0.1",
     license="GPL",
-    url="https://github.com/ddalex/django-django_cemplate",
-    download_url="https://github.com/ddalex/django-django_cemplate/releases",
+    url="https://github.com/ddalex/django-cemplate",
+    download_url="https://github.com/ddalex/django-cemplate/releases",
     description="Cython-compiles django.template.[base,context,context_processors].py files for speed improvements.",
     packages=["django_cemplate"],
-    ext_modules=CythonModuleCompiler(),
-    install_requires=['django', 'cython'],
+    ext_modules=cythonize("django_cemplate/*.py*"),
+    install_requires=['django==1.8.7', 'cython'],
     scripts=""
 )
