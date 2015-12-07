@@ -887,14 +887,11 @@ class Variable(object):
 cdef class Node(object):
     # Set this to True for nodes that must be first in the template (although
     # they can be preceded by text nodes.
-    cdef public int must_be_first
-    cdef public tuple child_nodelists
 
-    def __cinit__(self):
-        self.child_nodelists = ('nodelist',)
-        self.must_be_first = False
+    must_be_first = False
+    child_nodelists = ('nodelist',)
 
-    cpdef unicode render(self, context):
+    def render(self, context):
         """
         Return the node rendered as a string.
         """
@@ -908,7 +905,7 @@ cdef class Node(object):
         Return a list of all nodes (within this node and its nodelist)
         of the given type
         """
-        nodes = []
+        cdef list nodes = []
         if isinstance(self, nodetype):
             nodes.append(self)
         assert self.child_nodelists
@@ -922,10 +919,9 @@ cdef class Node(object):
 cdef class NodeList(list):
     # Set to True the first time a non-TextNode is inserted by
     # extend_nodelist().
-    cdef int contains_nontext
+    cdef public bint contains_nontext
 
-    def __init__(self, *args, **kwargs):
-        super(NodeList, self).__init__(*args, **kwargs)
+    def __cinit__(self):
         self.contains_nontext = False
 
     def render(self, context):
@@ -940,7 +936,7 @@ cdef class NodeList(list):
 
     cpdef list get_nodes_by_type(self, nodetype):
         "Return a list of all nodes of the given type"
-        nodes = []
+        cdef list nodes = []
         for node in self:
             nodes.extend(node.get_nodes_by_type(nodetype))
         return nodes
@@ -950,18 +946,20 @@ cdef class NodeList(list):
 
 
 cdef class TextNode(Node):
-    cdef unicode s
-    cdef public object source
+    cdef s
+    cdef public source
+
+    def __cinit__(self):
+        self.source = None
 
     def __init__(self, s):
         self.s = s
-        self.source = None
 
     def __repr__(self):
         return force_str("<Text Node: '%s'>" % self.s[:25], 'utf8',
                 errors='replace')
 
-    cpdef unicode render(self, context):
+    cpdef render(self, context):
         return self.s
 
 
