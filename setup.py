@@ -16,7 +16,7 @@ setup(
     name="django_cemplate",
     author="Alex DAMIAN",
     author_email="ddalex@gmail.com",
-    version="0.98",
+    version="0.99",
     license="GPL",
     url="https://github.com/ddalex/django-cemplate",
     download_url="https://github.com/ddalex/django-cemplate/releases",
