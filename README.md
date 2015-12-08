@@ -8,12 +8,28 @@ Django rendering code is slow. This is a drop-in module that replaces
 parts of the django.template with cython-compiled code to make it faster.
 
 
-INSTALLATION
+Installation
 ============
 
-To be written up.
+django_cemplate is currently compiled for django 1.8.7
 
-RESULTS
+$ pip install django_cemplate 
+
+should do the trick at any time.
+
+if you get missing header compilation errors, just install your distribution's
+python library development headers. e.g.
+
+$ sudo apt-get install libpython-dev
+
+
+How it works
+============
+
+The module setups a .pth file that uses an import hook to load the django_cemplate
+modules instead of the original django.template modules at runtime.
+
+Results
 =======
 
 Setting Django with WSGI behind Apache 2, ab shows a consistent 13% reduction
