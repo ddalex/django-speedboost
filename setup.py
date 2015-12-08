@@ -1,29 +1,43 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-from distutils.core import setup
-from Cython.Build import cythonize
+import os
 
-from Cython.Compiler.Options import directive_defaults
+from distutils.core import setup
+from distutils.extension import Extension
 
 from distutils import sysconfig
 site_packages_path = sysconfig.get_python_lib()
 
-directive_defaults['linetrace'] = True
-directive_defaults['binding'] = True
+USE_CYTHON = False
+extensions = []
+for d, s, files in os.walk("django_cemplate"):
+
+    for fname in files:
+        if fname.endswith(".c"):
+            basename = fname[:-2]
+            extensions.append(Extension(os.path.join(d, basename), [os.path.join(d, fname)]))
+
+if USE_CYTHON:
+    from Cython.Build import cythonize
+    from Cython.Compiler.Options import directive_defaults
+
+    directive_defaults['linetrace'] = True
+    directive_defaults['binding'] = True
+    extensions = cythonize("django_cemplate/*.py*")
 
 setup(
     name="django_cemplate",
     author="Alex DAMIAN",
     author_email="ddalex@gmail.com",
-    version="0.99",
+    version="1.00.rc1",
     license="GPL",
     url="https://github.com/ddalex/django-cemplate",
     download_url="https://github.com/ddalex/django-cemplate/releases",
     description="Cython-compiles django.template.[base,context,context_processors].py files for speed improvements.",
     packages=["django_cemplate"],
-    ext_modules=cythonize("django_cemplate/*.py*"),
-    install_requires=['django==1.8.7', 'cython'],
+    ext_modules=extensions,
+    install_requires=['django==1.8.7'],
     data_files=[(site_packages_path, ["django_cemplate.pth"])],
     scripts="",
 )
