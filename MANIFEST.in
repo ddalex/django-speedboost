@@ -1,4 +1,5 @@
 recursive-include django_cemplate *
 global-exclude *.py*
 include *.py
+include *.pth
 include django_cemplate/__init__.py

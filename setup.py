@@ -7,7 +7,9 @@ from distutils.core import setup
 from distutils.extension import Extension
 
 from distutils import sysconfig
-site_packages_path = sysconfig.get_python_lib()
+
+site_packages_path = sysconfig.get_python_lib(plat_specific=True)
+site_packages_rel_path = site_packages_path[len(sysconfig.EXEC_PREFIX) + 1:]
 
 USE_CYTHON = False
 extensions = []
@@ -30,7 +32,7 @@ setup(
     name="django_cemplate",
     author="Alex DAMIAN",
     author_email="ddalex@gmail.com",
-    version="1.00.rc1",
+    version="1.00.rc3",
     license="GPL",
     url="https://github.com/ddalex/django-cemplate",
     download_url="https://github.com/ddalex/django-cemplate/releases",
@@ -38,6 +40,6 @@ setup(
     packages=["django_cemplate"],
     ext_modules=extensions,
     install_requires=['django==1.8.7'],
-    data_files=[(site_packages_path, ["django_cemplate.pth"])],
+    data_files=[(site_packages_rel_path, ["django_cemplate.pth"])],
     scripts="",
 )
