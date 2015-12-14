@@ -2,6 +2,7 @@
 # coding: utf-8
 
 import os
+import sys
 
 from distutils.core import setup
 from distutils.extension import Extension
@@ -12,6 +13,10 @@ site_packages_path = sysconfig.get_python_lib(plat_specific=True)
 site_packages_rel_path = site_packages_path[len(sysconfig.EXEC_PREFIX) + 1:]
 
 USE_CYTHON = False
+if 'cython' in sys.argv:
+    sys.argv.remove('cython')
+    USE_CYTHON = True
+
 extensions = []
 for d, s, files in os.walk("django_cemplate"):
 
