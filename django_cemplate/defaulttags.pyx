@@ -13,10 +13,13 @@ from django.template.base import (
     BLOCK_TAG_END, BLOCK_TAG_START, COMMENT_TAG_END, COMMENT_TAG_START,
     SINGLE_BRACE_END, SINGLE_BRACE_START, VARIABLE_ATTRIBUTE_SEPARATOR,
     VARIABLE_TAG_END, VARIABLE_TAG_START, Context, InvalidTemplateLibrary,
-    Library, Node, NodeList, Template, TemplateSyntaxError,
+    Library, Template, TemplateSyntaxError,
     VariableDoesNotExist, get_library, kwarg_re, render_value_in_context,
     token_kwargs,
 )
+
+from base cimport Node, NodeList
+
 from django.template.defaultfilters import date
 from django.template.smartif import IfParser, Literal
 from django.utils import six, timezone
@@ -297,7 +300,8 @@ class IfEqualNode(Node):
         return self.nodelist_false.render(context)
 
 
-class IfNode(Node):
+cdef class IfNode(Node):
+    cdef public list conditions_nodelists
 
     def __init__(self, conditions_nodelists):
         self.conditions_nodelists = conditions_nodelists
@@ -314,7 +318,7 @@ class IfNode(Node):
     def nodelist(self):
         return NodeList(node for _, nodelist in self.conditions_nodelists for node in nodelist)
 
-    def render(self, context):
+    cpdef render(self, context):
         for condition, nodelist in self.conditions_nodelists:
 
             if condition is not None:           # if / elif clause

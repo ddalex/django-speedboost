@@ -891,7 +891,7 @@ cdef class Node(object):
     must_be_first = False
     child_nodelists = ('nodelist',)
 
-    def render(self, context):
+    cpdef render(self, context):
         """
         Return the node rendered as a string.
         """
@@ -917,9 +917,6 @@ cdef class Node(object):
 
 
 cdef class NodeList(list):
-    # Set to True the first time a non-TextNode is inserted by
-    # extend_nodelist().
-    cdef public bint contains_nontext
 
     def __cinit__(self):
         self.contains_nontext = False
@@ -947,7 +944,6 @@ cdef class NodeList(list):
 
 cdef class TextNode(Node):
     cdef s
-    cdef public source
 
     def __cinit__(self):
         self.source = None
