@@ -11,9 +11,9 @@ parts of the django.template with cython-compiled code to make it faster.
 Installation
 ============
 
-django_cemplate is currently compiled for django 1.8.7
+django_speedboost is currently compiled for django 1.8.7
 
-$ pip install django_cemplate 
+$ pip install django_speedboost 
 
 should do the trick at any time.
 
@@ -26,7 +26,7 @@ $ sudo apt-get install libpython-dev
 How it works
 ============
 
-The module setups a .pth file that uses an import hook to load the django_cemplate
+The module setups a .pth file that uses an import hook to load the django_speedboost
 modules instead of the original django.template modules at runtime.
 
 Results
