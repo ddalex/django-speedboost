@@ -680,11 +680,11 @@ fi=~
 fn=('~', 0, '<_bisect.bisect_right>')
 0  0
 
-fi=django_cemplate/base.pyx
-fn=render django_cemplate/base.pyx:1294
+fi=django_speedboost/base.pyx
+fn=render django_speedboost/base.pyx:1294
 1294 0
-cfn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:1140
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:1140
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2 1140
 1294 0
 cfn=get_template /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/engine.py:155
@@ -695,33 +695,33 @@ cfn=submit_row /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/djan
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_modify.py
 calls=1 24
 1294 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:224
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:224
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2 224
 1294 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=4 62
 1294 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:86
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:86
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 86
 1294 0
 cfn=prepopulated_fields_js /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_modify.py:6
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_modify.py
 calls=1 6
 1294 2
-cfn=new /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:251
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=new /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:251
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 251
 1294 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:192
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:192
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 192
 1294 0
 
-fi=django_cemplate/context_processors.py
-fn=_get_val django_cemplate/context_processors.py:24
+fi=django_speedboost/context_processors.py
+fn=_get_val django_speedboost/context_processors.py:24
 24 0
 cfn=smart_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
@@ -747,16 +747,16 @@ calls=109 94
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py
 fn=render_value /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py:154
 154 0
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 83
 154 0
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=5 962
 154 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 66
 154 0
 
@@ -779,12 +779,12 @@ cfn=('~', 0, "<method 'items' of 'dict' objects>")
 cfi=~
 calls=5 0
 125 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=3 666
 125 0
-cfn=update /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:162
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=update /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:162
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 162
 125 0
 cfn=render_token_list /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py:111
@@ -795,8 +795,8 @@ cfn=<dictcomp> /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/djan
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py
 calls=5 161
 125 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 57
 125 0
 
@@ -811,28 +811,28 @@ cfn=__iter__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/helpers.py
 calls=60 230
 6 2
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 83
 6 0
-cfn=update /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:162
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=update /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:162
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 162
 6 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 66
 6 0
 
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_modify.py
 fn=submit_row /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_modify.py:24
 24 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:86
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:86
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 86
 24 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=8 66
 24 0
 
@@ -860,11 +860,11 @@ cfi=/usr/lib/python2.7/json/__init__.py
 calls=1 193
 34 0
 
-fi=django_cemplate/base.pyx
-fn=render django_cemplate/base.pyx:1223
+fi=django_speedboost/base.pyx
+fn=render django_speedboost/base.pyx:1223
 1223 0
-cfn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:1140
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:1140
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=41 1140
 1223 0
 cfn=static /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_static.py:9
@@ -908,19 +908,19 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/
 calls=2 20
 1223 0
 
-fi=django_cemplate/defaulttags.pyx
-fn=render django_cemplate/defaulttags.pyx:321
+fi=django_speedboost/defaulttags.pyx
+fn=render django_speedboost/defaulttags.pyx:321
 321 6
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=16 72
 321 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=2171 924
 321 3
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=17 941
 321 0
 cfn=eval /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/smartif.py:85
@@ -939,8 +939,8 @@ cfn=__len__ /usr/lib/python2.7/UserList.py:30
 cfi=/usr/lib/python2.7/UserList.py
 calls=90 30
 321 0
-cfn=eval /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:940
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=eval /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:940
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=3399 940
 321 59
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -948,43 +948,43 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/sa
 calls=2 117
 321 0
 
-fi=django_cemplate/defaulttags.pyx
-fn=render django_cemplate/defaulttags.pyx:321
+fi=django_speedboost/defaulttags.pyx
+fn=render django_speedboost/defaulttags.pyx:321
 321 1
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=4 72
 321 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=3 941
 321 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 62
 321 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:151
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:151
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=2 151
 321 388
-cfn=genexpr django_cemplate/defaulttags.pyx:235
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:235
+cfi=django_speedboost/defaulttags.pyx
 calls=0 235
 321 0
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=7 958
 321 0
-cfn=render django_cemplate/defaulttags.pyx:321
-cfi=django_cemplate/defaulttags.pyx
+cfn=render django_speedboost/defaulttags.pyx:321
+cfi=django_speedboost/defaulttags.pyx
 calls=4420 321
 321 3
 cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:34
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=1 34
 321 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 28
 321 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -996,15 +996,15 @@ fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templa
 fn=get_admin_title /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templatetags/grp_tags.py:51
 51 0
 
-fi=django_cemplate/base.pyx
-fn=render django_cemplate/base.pyx:958
+fi=django_speedboost/base.pyx
+fn=render django_speedboost/base.pyx:958
 958 1
 
-fi=django_cemplate/base.pyx
-fn=render django_cemplate/base.pyx:958
+fi=django_speedboost/base.pyx
+fn=render django_speedboost/base.pyx:958
 958 3
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=13521 958
 958 1
 
@@ -1067,8 +1067,8 @@ cfn=format_html /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/dja
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/html.py
 calls=4 94
 16 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 66
 16 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -1147,20 +1147,20 @@ cfn=('~', 0, "<method 'append' of 'list' objects>")
 cfi=~
 calls=1 0
 44 0
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 83
 44 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:806
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:806
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 806
 44 0
-cfn=('~', 0, "<method 'render' of 'django_cemplate.base.NodeList' objects>")
+cfn=('~', 0, "<method 'render' of 'django_speedboost.base.NodeList' objects>")
 cfi=~
 calls=1 0
 44 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 66
 44 0
 cfn=is_active /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/gargoyle/manager.py:34
@@ -1224,27 +1224,27 @@ fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templa
 fn=switch_user_dropdown /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templatetags/grp_tags.py:224
 224 0
 
-fi=django_cemplate/base.pyx
-fn=get_nodes_by_type django_cemplate/base.pyx:934
+fi=django_speedboost/base.pyx
+fn=get_nodes_by_type django_speedboost/base.pyx:934
 934 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:934
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:934
+cfi=django_speedboost/base.pyx
 calls=24 934
 934 0
 
-fi=django_cemplate/base.pyx
-fn=get_nodes_by_type django_cemplate/base.pyx:934
+fi=django_speedboost/base.pyx
+fn=get_nodes_by_type django_speedboost/base.pyx:934
 934 0
-cfn=_render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:221
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=_render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:221
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 221
 934 593
 cfn=add_blocks /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:24
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=1 24
 934 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:903
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:903
+cfi=django_speedboost/base.pyx
 calls=124 903
 934 0
 cfn=<dictcomp> /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:128
@@ -1252,43 +1252,43 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template
 calls=1 128
 934 0
 
-fi=django_cemplate/base.pyx
-fn=get_nodes_by_type django_cemplate/base.pyx:903
+fi=django_speedboost/base.pyx
+fn=get_nodes_by_type django_speedboost/base.pyx:903
 903 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:903
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:903
+cfi=django_speedboost/base.pyx
 calls=84 903
 903 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:903
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:903
+cfi=django_speedboost/base.pyx
 calls=195 903
 903 0
 
-fi=django_cemplate/base.pyx
-fn=get_nodes_by_type django_cemplate/base.pyx:903
+fi=django_speedboost/base.pyx
+fn=get_nodes_by_type django_speedboost/base.pyx:903
 903 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:934
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:934
+cfi=django_speedboost/base.pyx
 calls=7 934
 903 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:903
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:903
+cfi=django_speedboost/base.pyx
 calls=16 903
 903 0
-cfn=nodelist django_cemplate/defaulttags.pyx:318
-cfi=django_cemplate/defaulttags.pyx
+cfn=nodelist django_speedboost/defaulttags.pyx:318
+cfi=django_speedboost/defaulttags.pyx
 calls=1 318
 903 0
 
-fi=django_cemplate/defaulttags.pyx
-fn=nodelist django_cemplate/defaulttags.pyx:318
+fi=django_speedboost/defaulttags.pyx
+fn=nodelist django_speedboost/defaulttags.pyx:318
 318 0
-cfn=get_nodes_by_type django_cemplate/base.pyx:934
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:934
+cfi=django_speedboost/base.pyx
 calls=16 934
 318 0
-cfn=genexpr django_cemplate/defaulttags.pyx:319
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:319
+cfi=django_speedboost/defaulttags.pyx
 calls=0 319
 318 0
 
@@ -1340,39 +1340,39 @@ cfi=/home/ddalex/Projects/backend/yplan/website/context_processors.py
 calls=1 16
 7 0
 
-fi=django_cemplate/base.pyx
-fn=render django_cemplate/base.pyx:924
+fi=django_speedboost/base.pyx
+fn=render django_speedboost/base.pyx:924
 924 24
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=10435 72
 924 4
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=10533 941
 924 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=3 62
 924 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:145
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=5 145
 924 474
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=6 958
 924 0
 cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:34
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=4 34
 924 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=6 28
 924 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 57
 924 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -1380,39 +1380,39 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/sa
 calls=2271 117
 924 5
 
-fi=django_cemplate/base.pyx
-fn=render_node django_cemplate/base.pyx:941
+fi=django_speedboost/base.pyx
+fn=render_node django_speedboost/base.pyx:941
 941 8
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=348 72
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:431
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:431
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=1 431
 941 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/gargoyle/templatetags/gargoyle_tags.py:44
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/gargoyle/templatetags/gargoyle_tags.py
 calls=1 44
 941 0
-cfn=render django_cemplate/base.pyx:1223
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:1223
+cfi=django_speedboost/base.pyx
 calls=41 1223
 941 1
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=376 941
 941 3
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:112
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=7 112
 941 593
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:476
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:476
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=0 476
 941 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=4 62
 941 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templatetags/grp_tags.py:34
@@ -1423,72 +1423,72 @@ cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/t
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/static.py
 calls=11 104
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:151
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:151
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=71 151
 941 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py:85
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py
 calls=27 85
 941 2
-cfn=genexpr django_cemplate/defaulttags.pyx:235
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:235
+cfi=django_speedboost/defaulttags.pyx
 calls=0 235
 941 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:145
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=8 145
 941 9
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:446
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:446
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=13 446
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:119
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:119
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=1 119
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=2 57
 941 0
-cfn=render django_cemplate/base.pyx:1294
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:1294
+cfi=django_speedboost/base.pyx
 calls=2 1294
 941 2
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:576
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:576
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=3 576
 941 399
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:52
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:52
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=61 52
 941 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py:125
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py
 calls=5 125
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:985
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:985
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1995 985
 941 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:108
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:108
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=2 108
 941 0
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=6401 958
 941 2
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:422
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:422
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=23 422
 941 0
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 962
 941 0
-cfn=render django_cemplate/defaulttags.pyx:321
-cfi=django_cemplate/defaulttags.pyx
+cfn=render django_speedboost/defaulttags.pyx:321
+cfi=django_speedboost/defaulttags.pyx
 calls=2274 321
 941 3
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:51
@@ -1499,12 +1499,12 @@ cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=8 34
 941 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=15 28
 941 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=5 57
 941 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -1515,12 +1515,12 @@ calls=26 117
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py
 fn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/i18n.py:85
 85 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=27 666
 85 1
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=27 962
 85 0
 
@@ -1540,8 +1540,8 @@ cfi=~
 calls=5 0
 111 0
 
-fi=django_cemplate/base.pyx
-fn=__cinit__ django_cemplate/base.pyx:921
+fi=django_speedboost/base.pyx
+fn=__cinit__ django_speedboost/base.pyx:921
 921 0
 
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loaders/cached.py
@@ -1579,8 +1579,8 @@ cfn=static /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/c
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py
 calls=7 8
 14 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=7 666
 14 0
 
@@ -1599,8 +1599,8 @@ calls=4 183
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/static.py
 fn=url /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/static.py:100
 100 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=4 666
 100 0
 cfn=handle_simple /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/templatetags/static.py:111
@@ -5287,12 +5287,12 @@ calls=4 206
 fi=/home/ddalex/Projects/backend/yplan/yplan/admin_helpers.py
 fn=render_table /home/ddalex/Projects/backend/yplan/yplan/admin_helpers.py:65
 65 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:125
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:125
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 125
 65 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:224
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:224
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 224
 65 407
 
@@ -6272,8 +6272,8 @@ cfi=~
 calls=39 0
 302 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=csrf /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:19
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=csrf /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:19
 19 0
 cfn=lazy /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py
@@ -6284,16 +6284,16 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/fu
 calls=1 188
 19 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=debug /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:38
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=debug /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:38
 38 0
 cfn=__getattr__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py
 calls=1 46
 38 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=i18n /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:52
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=i18n /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:52
 52 0
 cfn=__getattr__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py
@@ -6308,32 +6308,32 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/tr
 calls=1 178
 52 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=tz /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:63
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=tz /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:63
 63 0
 cfn=get_current_timezone_name /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/timezone.py:200
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/timezone.py
 calls=1 200
 63 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=static /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:69
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=static /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:69
 69 0
 cfn=__getattr__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py
 calls=1 46
 69 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=media /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:77
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=media /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:77
 77 0
 cfn=__getattr__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py
 calls=1 46
 77 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
-fn=request /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:85
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
+fn=request /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:85
 85 0
 
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/gargoyle/manager.py
@@ -7495,8 +7495,8 @@ cfn=urlunparse /usr/lib/python2.7/urlparse.py:223
 cfi=/usr/lib/python2.7/urlparse.py
 calls=3 223
 20 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:86
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:86
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=4 86
 20 0
 cfn=urlencode /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/http.py:83
@@ -8863,12 +8863,12 @@ cfn=('~', 0, '<isinstance>')
 cfi=~
 calls=6 0
 44 0
-cfn=make_context /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:260
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=make_context /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:260
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=3 260
 44 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:224
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:224
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 224
 44 0
 
@@ -9195,8 +9195,8 @@ cfn=eval /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/smartif.py
 calls=2 60
 100 0
-cfn=eval /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:940
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=eval /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:940
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=176 940
 100 3
 
@@ -9207,16 +9207,16 @@ cfn=eval /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/smartif.py
 calls=128 85
 101 1
-cfn=eval /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:940
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=eval /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:940
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=5 940
 101 0
 
 fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/smartif.py
 fn=<lambda> /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/smartif.py:102
 102 0
-cfn=eval /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:940
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=eval /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:940
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=952 940
 102 23
 
@@ -9275,27 +9275,27 @@ cfn=__init__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=49 45
 51 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=9 941
 51 586
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=51 62
 51 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=51 54
 51 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:192
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:192
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=51 192
 51 0
-cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=51 25
 51 0
-cfn=('~', 0, "<method 'render' of 'django_cemplate.base.NodeList' objects>")
+cfn=('~', 0, "<method 'render' of 'django_speedboost.base.NodeList' objects>")
 cfi=~
 calls=39 0
 51 0
@@ -9303,8 +9303,8 @@ cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=31 34
 51 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=33 28
 51 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -9323,12 +9323,12 @@ cfn=get_block /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/djang
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=15 37
 70 0
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=15 83
 70 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:195
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:195
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=15 195
 70 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:51
@@ -9355,8 +9355,8 @@ cfn=get_template /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/dj
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/engine.py
 calls=6 155
 95 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=6 666
 95 0
 
@@ -9371,35 +9371,35 @@ cfn=('~', 0, '<isinstance>')
 cfi=~
 calls=12 0
 112 0
-cfn=_render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:221
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=_render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:221
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=5 221
 112 593
 cfn=get_parent /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:95
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=6 95
 112 0
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=6 83
 112 0
 cfn=__init__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:20
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=1 20
 112 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 62
 112 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:195
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:195
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=6 195
 112 0
 cfn=add_blocks /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:24
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=6 24
 112 0
-cfn=('~', 0, "<method 'get_nodes_by_type' of 'django_cemplate.base.NodeList' objects>")
+cfn=('~', 0, "<method 'get_nodes_by_type' of 'django_speedboost.base.NodeList' objects>")
 cfi=~
 calls=1 0
 112 593
@@ -9431,24 +9431,24 @@ cfn=get_template /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/dj
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/engine.py
 calls=17 155
 145 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:224
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:224
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=16 224
 145 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=17 666
 145 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=17 54
 145 0
 cfn=<dictcomp> /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:153
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=17 153
 145 0
-cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=17 25
 145 0
 
@@ -9476,152 +9476,152 @@ cfi=~
 calls=3 0
 106 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
 54 2
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:19
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:19
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1724 19
 54 2
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
 57 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
 62 1
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 62
 62 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
 66 10
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 83
 66 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 66
 66 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=has_key /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:77
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=has_key /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:77
 77 1
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 83
 77 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
 83 0
-cfn=has_key /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:189
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=has_key /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:189
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=21 189
 83 0
-cfn=has_key /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:77
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=has_key /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:77
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1637 77
 83 1
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:86
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:86
 86 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=new /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:92
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=new /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:92
 92 0
 cfn=copy /usr/lib/python2.7/copy.py:66
 cfi=/usr/lib/python2.7/copy.py
 calls=2 66
 92 0
-cfn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:36
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:36
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 36
 92 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:125
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:125
 125 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:33
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:33
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=8 33
 125 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__copy__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:157
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__copy__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:157
 157 0
 cfn=copy /usr/lib/python2.7/copy.py:66
 cfi=/usr/lib/python2.7/copy.py
 calls=2 66
 157 0
-cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:42
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:42
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 42
 157 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=update /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:162
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=update /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:162
 162 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=has_key /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:189
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=has_key /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:189
 189 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:192
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:192
 192 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:195
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:195
 195 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:206
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:206
 206 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:125
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:125
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 125
 206 0
-cfn=update /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:162
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=update /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:162
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 162
 206 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=new /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:251
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=new /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:251
 251 0
-cfn=new /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:92
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=new /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:92
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 92
 251 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=make_context /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:260
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=make_context /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:260
 260 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:206
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:206
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 206
 260 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:125
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:125
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 125
 260 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 54
 260 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:52
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:52
 52 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:57
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:57
 57 0
 cfn=format_html /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/html.py:94
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/html.py
@@ -9631,8 +9631,8 @@ cfn=__eq__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/u
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py
 calls=2 161
 57 0
-cfn=get /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:86
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=get /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:86
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 86
 57 0
 cfn=__wrapper__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py:132
@@ -9640,44 +9640,44 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/fu
 calls=2 132
 57 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:108
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:108
 108 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=2 924
 108 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2 666
 108 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 54
 108 0
-cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 25
 108 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 28
 108 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:119
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:119
 119 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2 666
 119 0
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 962
 119 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:151
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:151
 151 33
 cfn=('~', 0, '<getattr>')
 cfi=~
@@ -9763,28 +9763,28 @@ cfn=process_response /home/ddalex/Projects/venv/local/lib/python2.7/site-package
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django_statsd/middleware.py
 calls=1 39
 151 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=6 924
 151 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=247 941
 151 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1628 666
 151 0
-cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:83
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__contains__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:83
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1627 83
 151 2
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=4724 62
 151 1
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1627 54
 151 3
 cfn=process_response /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/messages/middleware.py:13
@@ -9799,24 +9799,24 @@ cfn=process_response /home/ddalex/Projects/venv/local/lib/python2.7/site-package
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/middleware/http.py
 calls=1 12
 151 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:151
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:151
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=2849 151
 151 0
 cfn=smart_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=1 46
 151 0
-cfn=genexpr django_cemplate/defaulttags.pyx:235
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:235
+cfi=django_speedboost/defaulttags.pyx
 calls=0 235
 151 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:145
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=15 145
 151 509
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:446
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:446
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
 calls=170 446
 151 28
 cfn=__iter__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/helpers.py:84
@@ -9859,24 +9859,24 @@ cfn=content /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/response.py
 calls=1 182
 151 0
-cfn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:985
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:985
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=610 985
 151 7
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=7104 958
 151 2
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 962
 151 0
-cfn=render django_cemplate/defaulttags.pyx:321
-cfi=django_cemplate/defaulttags.pyx
+cfn=render django_speedboost/defaulttags.pyx:321
+cfi=django_speedboost/defaulttags.pyx
 calls=2151 321
 151 479
-cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1627 25
 151 0
 cfn=conditional_escape /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/html.py:81
@@ -9887,16 +9887,16 @@ cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=1 34
 151 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1632 28
 151 1
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=11 57
 151 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1622 66
 151 1
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -9904,12 +9904,12 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/sa
 calls=96 117
 151 1
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:422
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:422
 422 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:431
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:431
 431 0
 cfn=__getattr__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py:46
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/conf/__init__.py
@@ -9928,8 +9928,8 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/ti
 calls=1 193
 431 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:446
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:446
 446 2
 cfn=__exit__ /usr/lib/python2.7/contextlib.py:21
 cfi=/usr/lib/python2.7/contextlib.py
@@ -9939,60 +9939,60 @@ cfn=wrapper /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py
 calls=57 209
 446 1
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=126 924
 446 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 28
 446 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 57
 446 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:476
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:476
 476 0
-cfn=genexpr django_cemplate/defaulttags.pyx:479
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:479
+cfi=django_speedboost/defaulttags.pyx
 calls=0 479
 476 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=7 666
 476 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:576
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:576
 576 0
 cfn=iteritems /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/six.py:598
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/six.py
 calls=3 598
 576 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=3 924
 576 399
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=3 666
 576 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=3 54
 576 0
-cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=3 25
 576 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx
-fn=eval /home/ddalex/Projects/django-cemplate/django_cemplate/defaulttags.pyx:940
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx
+fn=eval /home/ddalex/Projects/django-cemplate/django_speedboost/defaulttags.pyx:940
 940 4
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=4532 666
 940 82
 
@@ -10157,26 +10157,26 @@ calls=101 0
 921 0
 
 fi=~
-fn=('~', 0, "<method 'render' of 'django_cemplate.base.NodeList' objects>")
+fn=('~', 0, "<method 'render' of 'django_speedboost.base.NodeList' objects>")
 0  0
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=10 72
 0 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=41 924
 0 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=9 941
 0 0
 cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:34
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=3 34
 0 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=3 28
 0 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -10185,10 +10185,10 @@ calls=5 117
 0 0
 
 fi=~
-fn=('~', 0, "<method 'get_nodes_by_type' of 'django_cemplate.base.NodeList' objects>")
+fn=('~', 0, "<method 'get_nodes_by_type' of 'django_speedboost.base.NodeList' objects>")
 0  0
-cfn=get_nodes_by_type django_cemplate/base.pyx:934
-cfi=django_cemplate/base.pyx
+cfn=get_nodes_by_type django_speedboost/base.pyx:934
+cfi=django_speedboost/base.pyx
 calls=1 934
 0 593
 
@@ -10260,59 +10260,59 @@ fi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/
 fn=make_origin /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/engine.py:263
 263 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:163
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:163
 163 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=_render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:221
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=_render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:221
 221 0
-cfn=render django_cemplate/base.pyx:924
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:924
+cfi=django_speedboost/base.pyx
 calls=27 924
 221 0
-cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:62
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__setitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:62
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 62
 221 0
-cfn=genexpr django_cemplate/defaulttags.pyx:235
-cfi=django_cemplate/defaulttags.pyx
+cfn=genexpr django_speedboost/defaulttags.pyx:235
+cfi=django_speedboost/defaulttags.pyx
 calls=0 235
 221 0
 cfn=render /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:145
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=2 145
 221 0
-cfn=render django_cemplate/base.pyx:958
-cfi=django_cemplate/base.pyx
+cfn=render django_speedboost/base.pyx:958
+cfi=django_speedboost/base.pyx
 calls=3 958
 221 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 28
 221 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:224
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:224
 224 0
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=2 72
 224 0
-cfn=_render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:221
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=_render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:221
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=18 221
 224 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=1 941
 224 0
-cfn=push /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:54
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=push /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:54
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=23 54
 224 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 57
 224 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -10324,8 +10324,8 @@ cfi=/usr/lib/python2.7/contextlib.py
 calls=2 82
 224 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
 666 10
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
@@ -10335,8 +10335,8 @@ cfn=_dec /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/tem
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/defaultfilters.py
 calls=115 42
 666 1
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=1 941
 666 0
 cfn=admin_urlname /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/templatetags/admin_urls.py:10
@@ -10363,16 +10363,16 @@ cfn=formsetsort /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/gra
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/grappelli/templatetags/grp_tags.py
 calls=3 127
 666 1
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:806
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:806
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=8845 806
 666 0
 cfn=default /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/defaultfilters.py:828
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/defaultfilters.py
 calls=5 828
 666 0
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=3 962
 666 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -10380,15 +10380,15 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/sa
 calls=375 117
 666 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:806
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:806
 806 5
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 962
 806 0
-cfn=_resolve_lookup /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:827
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=_resolve_lookup /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:827
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=8819 827
 806 0
 cfn=__wrapper__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/functional.py:188
@@ -10396,8 +10396,8 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/fu
 calls=27 188
 806 1
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=_resolve_lookup /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:827
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=_resolve_lookup /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:827
 827 72
 cfn=_get_pk_val /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/db/models/base.py:562
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/db/models/base.py
@@ -10415,8 +10415,8 @@ cfn=super /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/te
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=10 70
 827 0
-cfn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:163
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:163
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1978 163
 827 0
 cfn=__getitem__ /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/forms/forms.py:161
@@ -10531,17 +10531,17 @@ cfn=fk_field /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/admin/helpers.py
 calls=57 317
 827 1
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=1 962
 827 0
-cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:66
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__getitem__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:66
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=8824 66
 827 8
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
 962 7
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
@@ -10560,31 +10560,31 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/fo
 calls=2643 190
 962 11
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:985
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:985
 985 3
 cfn=force_text /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py:72
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/encoding.py
 calls=4 72
 985 0
-cfn=render_node django_cemplate/base.pyx:941
-cfi=django_cemplate/base.pyx
+cfn=render_node django_speedboost/base.pyx:941
+cfi=django_speedboost/base.pyx
 calls=3 941
 985 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2605 666
 985 0
-cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:962
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=render_value_in_context /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:962
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=2601 962
 985 42
 cfn=push /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py:34
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/template/loader_tags.py
 calls=1 34
 985 0
-cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1 28
 985 0
 cfn=mark_safe /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/safestring.py:117
@@ -10592,44 +10592,44 @@ cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/sa
 calls=1 117
 985 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
-fn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:1140
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
+fn=get_resolved_arguments /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:1140
 1140 0
-cfn=resolve /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:666
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=resolve /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:666
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=34 666
 1140 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:19
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:19
 19 2
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__enter__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:25
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__enter__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:25
 25 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__exit__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:28
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__exit__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:28
 28 1
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=1700 57
 28 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__init__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:33
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__init__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:33
 33 0
-cfn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:36
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:36
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=8 36
 33 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:36
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=_reset_dicts /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:36
 36 0
 
-fi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
-fn=__copy__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:42
+fi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
+fn=__copy__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:42
 42 0
 cfn=copy /usr/lib/python2.7/copy.py:66
 cfi=/usr/lib/python2.7/copy.py
@@ -17695,8 +17695,8 @@ calls=4530 0
 fi=/usr/lib/python2.7/contextlib.py
 fn=__enter__ /usr/lib/python2.7/contextlib.py:15
 15 0
-cfn=csrf /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:19
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=csrf /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:19
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 19
 15 0
 cfn=auth /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/auth/context_processors.py:49
@@ -17707,24 +17707,24 @@ cfn=messages /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/contrib/messages/context_processors.py
 calls=1 5
 15 0
-cfn=debug /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:38
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=debug /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:38
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 38
 15 0
-cfn=i18n /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:52
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=i18n /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:52
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 52
 15 0
-cfn=request /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:85
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=request /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:85
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 85
 15 0
-cfn=static /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:69
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=static /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:69
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 69
 15 0
-cfn=tz /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:63
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=tz /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:63
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 63
 15 0
 cfn=permissions /home/ddalex/Projects/backend/yplan/partners/context_processors.py:7
@@ -17735,8 +17735,8 @@ cfn=settings /home/ddalex/Projects/backend/yplan/website/context_processors.py:7
 cfi=/home/ddalex/Projects/backend/yplan/website/context_processors.py
 calls=1 7
 15 0
-cfn=media /home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py:77
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context_processors.py
+cfn=media /home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py:77
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context_processors.py
 calls=1 77
 15 0
 cfn=reader /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/synch.py:52
@@ -17763,20 +17763,20 @@ cfn=__exit__ /usr/lib/python2.7/contextlib.py:21
 cfi=/usr/lib/python2.7/contextlib.py
 calls=2 21
 82 0
-cfn=bind_template /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:231
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=bind_template /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:231
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=0 231
 82 0
-cfn=_render /home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx:221
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/base.pyx
+cfn=_render /home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx:221
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/base.pyx
 calls=4 221
 82 594
-cfn=bind_template /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:148
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=bind_template /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:148
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=0 148
 82 0
-cfn=pop /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:57
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=pop /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:57
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 57
 82 0
 cfn=__init__ /usr/lib/python2.7/contextlib.py:12
@@ -19631,12 +19631,12 @@ cfn=('~', 0, "<method 'get' of 'dict' objects>")
 cfi=~
 calls=984 0
 66 0
-cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:157
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:157
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 157
 66 0
-cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_cemplate/context.py:42
-cfi=/home/ddalex/Projects/django-cemplate/django_cemplate/context.py
+cfn=__copy__ /home/ddalex/Projects/django-cemplate/django_speedboost/context.py:42
+cfi=/home/ddalex/Projects/django-cemplate/django_speedboost/context.py
 calls=2 42
 66 0
 
@@ -20147,8 +20147,8 @@ cfn=('~', 0, '<getattr>')
 cfi=~
 calls=2 0
 132 0
-cfn=_get_val django_cemplate/context_processors.py:24
-cfi=django_cemplate/context_processors.py
+cfn=_get_val django_speedboost/context_processors.py:24
+cfi=django_speedboost/context_processors.py
 calls=2 24
 132 0
 
@@ -20171,8 +20171,8 @@ cfn=_string_concat /home/ddalex/Projects/venv/local/lib/python2.7/site-packages/
 cfi=/home/ddalex/Projects/venv/local/lib/python2.7/site-packages/django/utils/translation/__init__.py
 calls=1 206
 139 0
-cfn=_get_val django_cemplate/context_processors.py:24
-cfi=django_cemplate/context_processors.py
+cfn=_get_val django_speedboost/context_processors.py:24
+cfi=django_speedboost/context_processors.py
 calls=4 24
 139 0
 

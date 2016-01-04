@@ -1,5 +1,5 @@
-recursive-include django_cemplate *
+recursive-include django_speedboost *
 global-exclude *.py*
 include *.py
 include *.pth
-include django_cemplate/__init__.py
+include django_speedboost/__init__.py
